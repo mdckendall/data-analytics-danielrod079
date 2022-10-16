@@ -17,9 +17,6 @@ class Main {
         {
             arrayList.add(fileScanner.nextLine());
         }
-        String list = arrayList.toString();
-        list = list.replaceAll("\\[", "").replaceAll("\\,","\n")
-                .replaceAll("\\]","\n");
         while (exit == false){
             System.out.print(
                     "Press 1 to learn about salary.\n" +
@@ -40,7 +37,8 @@ class Main {
                     System.out.print("Top 10 Forbes In-Demand Jobs!\n");
                     break;
                 case 4:
-                    System.out.print("Current Students:\n" + list);
+                    System.out.print("Current Students:\n");
+                    arrayList.forEach(System.out::println);
                     break;
                 case 5:
                     exit = true;
