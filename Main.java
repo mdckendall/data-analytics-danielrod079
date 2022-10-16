@@ -40,7 +40,7 @@ class Main {
                     System.out.print("Top 10 Forbes In-Demand Jobs!\n");
                     break;
                 case 4:
-                    System.out.print("Current Students:" + list);
+                    System.out.print("Current Students:\n" + list);
                     break;
                 case 5:
                     exit = true;
