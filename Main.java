@@ -37,10 +37,10 @@ class Main {
                     System.out.print("US News - 100 Best Jobs!\n");
                     break;
                 case 3:
-                    System.out.print("top 10 Forbes In-Demand Jobs!\n");
+                    System.out.print("Top 10 Forbes In-Demand Jobs!\n");
                     break;
                 case 4:
-                    System.out.print("Current Students:\n" + list);
+                    System.out.print("Current Students:" + list);
                     break;
                 case 5:
                     exit = true;
